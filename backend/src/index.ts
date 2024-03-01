@@ -10,6 +10,6 @@ app.get("/test", async (req: Request, res: Response)=>{
      res.json({message: "Hello!"})
 })
 
-app.listen(7000, ()=>{
-    console.log("server started on https://localhost/7000")
+app.listen(8500, ()=>{
+    console.log("server started on https://localhost/8500")
 })
